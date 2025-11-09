@@ -1,39 +1,14 @@
-#include <stdio.h>
+# 🎓 Student Grade Calculator
 
-int main() {
-    float marks[6], total = 0, percentage;
-    int i;
+This is a simple C program that calculates the total marks, percentage, and grade of a student based on marks entered for 5 subjects.
 
-    printf("Enter marks for 5 subjects (out of 100):\n");
+## 🧠 Features
+- Takes input for 5 subjects  
+- Calculates total and percentage  
+- Displays grade based on percentage  
 
-    for(i = 0; i < 6; i++) {
-        printf("Subject %d: ", i + 1);
-        scanf("%f", &marks[i]);
-        total += marks[i];
-    }
+## 💻 Technologies Used
+- Language: C  
+- Tool: GitHub Desktop  
 
-    percentage = total / 6;
-
-    printf("\nTotal Marks = %.2f\n", total);
-    printf("Percentage = %.2f%%\n", percentage);
-
-    if(percentage >= 90){
-        printf("Grade: A+ (Excellent)\n");
-    }
-    else if(percentage >= 80==89){
-        printf("Grade: A (Very Good)\n");
-    }
-    else if(percentage >= 70==79){
-        printf("Grade: B (Good)\n");
-    }
-    else if(percentage >= 60==69){
-        printf("Grade: C (Average)\n");
-    }
-    else if(percentage >= 50==59){
-        printf("Grade: D (Pass)\n");
-    }
-    else if(percentage<=50){
-        printf("Grade: F (Fail)\n");
-}
-    return 0;
-}
+## 📋 Example Output
