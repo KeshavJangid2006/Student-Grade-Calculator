@@ -4,7 +4,7 @@ int main() {
     float marks[6], total = 0, percentage;
     int i;
 
-    printf("Enter marks for 5 subjects (out of 100):\n");
+    printf("Enter marks for 6 subjects (out of 100):\n");
 
     for(i = 0; i < 6; i++) {
         printf("Subject %d: ", i + 1);
@@ -37,3 +37,4 @@ int main() {
 }
     return 0;
 }
+
